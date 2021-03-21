@@ -47,7 +47,6 @@ var threeSum = function (nums) {
         while (nums[end] === nums[end - 1]) end--;
         start++;
         end--;
-        continue;
       }
       if (currSum < target) {
         start++;
