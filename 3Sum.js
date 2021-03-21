@@ -51,11 +51,9 @@ var threeSum = function (nums) {
       }
       if (currSum < target) {
         start++;
-        continue;
       }
       if (currSum > target) {
         end--;
-        continue;
       }
     }
   }
