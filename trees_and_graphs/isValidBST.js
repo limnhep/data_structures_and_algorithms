@@ -48,3 +48,6 @@ var valid = function (root, left, right) {
   if ((left !== null && root.val <= left) || (right !== null && root.val >= right)) return false;
   return valid(root.left, left, root.val) && valid(root.right, root.val, right);
 }
+
+// time: O(n)
+// space: O(n)
